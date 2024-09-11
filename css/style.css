@@ -1,0 +1,116 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Racing+Sans+One&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Noto Sans KR", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Racing Sans One", sans-serif;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+header,
+main,
+section,
+article,
+nav,
+aside,
+footer {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
+
+#ex_01 {
+  padding: 60px 0;
+  background-image: url(../img/grapes-bg-left.png),
+    url(../img/grapes-bg-right.png);
+  background-repeat: no-repeat;
+  background-position: 0 50%, 100% 50%;
+  background-size: 240px, 240px;
+  vertical-align: middle;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+}
+
+#ex_01 .wrap {
+  width: 1200px;
+  margin: 0 auto;
+  font-size: 0;
+}
+
+#ex_01 .wrap .box {
+  width: 20%;
+  display: inline-block;
+  padding: 0 10px 20px 10px;
+}
+
+#ex_01 .wrap .box .inbox {
+  height: 220px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+#ex_01 .wrap .box .inbox .img_space {
+  height: 100%;
+  background-size: cover;
+  background-position: 50% 50%;
+  border-radius: 4px;
+}
+
+#ex_01 .wrap .box:nth-child(1) .inbox .img_space {
+  background-image: url(../img/fruit_01.jpg);
+}
+
+#ex_01 .wrap .box:nth-child(2) .inbox .img_space {
+  background-image: url(../img/fruit_02.jpg);
+}
+#ex_01 .wrap .box:nth-child(3) .inbox .img_space {
+  background-image: url(../img/fruit_03.jpg);
+}
+#ex_01 .wrap .box:nth-child(4) .inbox .img_space {
+  background-image: url(../img/fruit_04.jpg);
+}
+#ex_01 .wrap .box:nth-child(5) .inbox .img_space {
+  background-image: url(../img/fruit_05.jpg);
+}
+#ex_01 .wrap .box:nth-child(6) .inbox .img_space {
+  background-image: url(../img/fruit_06.jpg);
+}
+#ex_01 .wrap .box:nth-child(7) .inbox .img_space {
+  background-image: url(../img/fruit_07.jpg);
+}
+#ex_01 .wrap .box:nth-child(8) .inbox .img_space {
+  background-image: url(../img/fruit_08.jpg);
+}
+#ex_01 .wrap .box:nth-child(9) .inbox .img_space {
+  background-image: url(../img/fruit_09.jpg);
+}
+#ex_01 .wrap .box:nth-child(10) .inbox .img_space {
+  background-image: url(../img/fruit_10.jpg);
+}
