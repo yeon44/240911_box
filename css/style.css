@@ -214,3 +214,392 @@ button {
   height: 40px;
   margin-top: 20px;
 }
+
+#ex_03 {
+  font-family: "Poppins", sans-serif;
+  font-size: 0;
+  padding: 20px;
+}
+
+#ex_03 .box {
+  display: inline-block;
+  width: calc(100% / 3);
+  height: 900px;
+  padding: 20px;
+  position: relative;
+  vertical-align: top;
+}
+
+#ex_03 .box:nth-child(1) {
+  background-color: #6364a7;
+}
+
+#ex_03 .box h3 {
+  font-family: "Racing Sans One", sans-serif;
+  width: 200px;
+  font-size: 40px;
+  color: white;
+}
+#ex_03 .box .pantone_img {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  width: 200px;
+  height: 200px;
+  border: 10px solid #fff;
+  padding: 10px;
+}
+#ex_03 .box .pantone_img a {
+}
+#ex_03 .box .pantone_img a img {
+  height: 60px;
+}
+#ex_03 .box .pantone_img a img:nth-child(2) {
+  height: 20px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+#ex_03 .box:nth-child(2) {
+  background-image: url(../img/pantone_color_img.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+#ex_03 .box:nth-child(3) {
+  background-color: #fff;
+}
+
+#ex_03 .box:nth-child(3) .text {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+#ex_03 .box:nth-child(3) .text h3 {
+  width: 180px;
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  color: #6364a7;
+}
+#ex_03 .box:nth-child(3) .text p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #777;
+  padding: 10px 0 20px 0;
+}
+#ex_03 .box:nth-child(3) .text button {
+  font-family: "Poppins", sans-serif;
+  background-color: transparent;
+  border-radius: 20px;
+  height: 40px;
+  padding: 0 20px;
+  border: 1px solid #6364a7;
+  font-size: 16px;
+  color: #6364a7;
+  transition: 0.8s;
+  cursor: pointer;
+}
+
+#ex_03 .box:nth-child(3) .text button:hover {
+  background-color: #6364a7;
+  color: white;
+}
+
+#ex_04 {
+  font-family: "Poppins", sans-serif;
+}
+
+#ex_04 .wrap {
+  width: 1200px;
+  margin: auto auto;
+}
+
+#ex_04 .wrap > div {
+  width: calc(100% / 3);
+  height: 400px;
+  padding: 20px;
+  position: relative;
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
+  vertical-align: top;
+}
+
+#ex_04 .wrap > div.grab_it {
+  border: 10px solid #6364a7;
+  padding: 10px;
+}
+
+#ex_04 .wrap .grab_it h3 {
+  font-family: "Racing Sans One", sans-serif;
+  font-size: 40px;
+  color: #6364a7;
+}
+
+#ex_04 .wrap .grab_it p {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-size: 16px;
+  color: #777;
+  font-family: "Poppins", sans-serif;
+}
+
+#ex_04 .wrap > div.img {
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-color: #b3b4f7;
+}
+
+#ex_04 .wrap > div.img.img1 {
+  background-image: url(../img/design_01.png);
+}
+
+#ex_04 .wrap > div.img .explane {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(9, 10, 77, 0.75);
+  padding: 10px 0;
+  text-align: center;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  display: block;
+}
+
+#ex_04 .wrap > div.img .explane h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+#ex_04 .wrap > div.img .explane p {
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+#ex_04 .wrap > div.txt {
+  background-color: #6364a7;
+}
+#ex_04 .wrap > div.txt.txt2 {
+}
+#ex_04 .wrap > div.txt.txt2 h3 {
+  font-size: 36px;
+  color: white;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+#ex_04 .wrap > div.txt.txt2 p {
+  font-size: 16px;
+  color: #b3b4f7;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-family: "Poppins", sans-serif;
+  width: calc(100% - 40px);
+}
+
+#ex_04 .wrap > div.img.img2 {
+  background-image: url(../img/design_02.png);
+}
+
+#ex_04 .wrap > div.img .explane {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(9, 10, 77, 0.75);
+  padding: 10px 0;
+  text-align: center;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  display: block;
+}
+
+#ex_04 .wrap > div.img .explane h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+#ex_04 .wrap > div.img .explane p {
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+#ex_04 .wrap > div.txt {
+  background-color: #6364a7;
+}
+#ex_04 .wrap > div.txt.txt3 {
+}
+#ex_04 .wrap > div.txt.txt3 h3 {
+  font-size: 36px;
+  color: white;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+#ex_04 .wrap > div.txt.txt3 p {
+  font-size: 16px;
+  color: #b3b4f7;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-family: "Poppins", sans-serif;
+  width: calc(100% - 40px);
+}
+
+#ex_04 .wrap > div.img.img4 {
+  background-image: url(../img/design_03.png);
+}
+
+#ex_04 .wrap > div.img .explane {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(9, 10, 77, 0.75);
+  padding: 10px 0;
+  text-align: center;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  display: block;
+}
+
+#ex_04 .wrap > div.img .explane h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+#ex_04 .wrap > div.img .explane p {
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+#ex_04 .wrap > div.txt {
+  background-color: #6364a7;
+}
+#ex_04 .wrap > div.txt.txt4 {
+}
+#ex_04 .wrap > div.txt.txt4 h3 {
+  font-size: 36px;
+  color: white;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+#ex_04 .wrap > div.txt.txt4 p {
+  font-size: 16px;
+  color: #b3b4f7;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-family: "Poppins", sans-serif;
+  width: calc(100% - 40px);
+}
+
+#ex_04 .wrap > div.img.img5 {
+  background-image: url(../img/design_04.png);
+}
+
+#ex_04 .wrap > div.img .explane {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(9, 10, 77, 0.75);
+  padding: 10px 0;
+  text-align: center;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  display: block;
+}
+
+#ex_04 .wrap > div.img .explane h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+#ex_04 .wrap > div.img .explane p {
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+#ex_04 .wrap > div.txt {
+  background-color: #6364a7;
+}
+#ex_04 .wrap > div.txt.txt5 {
+}
+#ex_04 .wrap > div.txt.txt5 h3 {
+  font-size: 36px;
+  color: white;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+
+#ex_04 .wrap > div.txt2:hover:after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-left: 20px solid #6364a7;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  left: -20px;
+  top: calc(50% - 20px);
+  z-index: 1;
+  rotate: 180deg;
+}
+#ex_04 .wrap > div.txt3:hover:after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-left: 20px solid #6364a7;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  right: -20px;
+  top: calc(50% - 20px);
+  z-index: 1;
+}
+#ex_04 .wrap > div.txt4:hover:after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-bottom: 20px solid #6364a7;
+  border-right: 20px solid transparent;
+  border-left: 20px solid transparent;
+  top: -20px;
+  left: calc(50% - 20px);
+  z-index: 1;
+}
+
+#ex_04 .wrap > div.txt5:hover:after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-left: 20px solid #6364a7;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  left: -20px;
+  top: calc(50% - 20px);
+  z-index: 1;
+  rotate: 180deg;
+}
+#ex_04 .wrap > div.txt.txt5 p {
+  font-size: 16px;
+  color: #b3b4f7;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-family: "Poppins", sans-serif;
+  width: calc(100% - 40px);
+}
